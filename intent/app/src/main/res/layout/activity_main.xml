@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/a"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="inten explicito"/>
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inten  abrir actividad"/>
+    <Button
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inten abrir otra aplicacion"/>
+    <Button
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inten marcador telefono"/>
+    <Button
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inten mandar mensa"/>
+    <Button
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inten abrir paquete y comprobar si existe"/>
+
+    <Button
+     android:id="@+id/g"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="abrir playstore"   />
+
+   <Button
+     android:id="@+id/h"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="abrir activity for result"/>
+</LinearLayout>
